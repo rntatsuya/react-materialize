@@ -10,9 +10,10 @@ const renderTitle = (title, reveal) => (
   </span>
 );
 
+// <span className='card-title grey-text text-darken-4'>{title}<Icon right>close</Icon></span>
 const renderReveal = (title, reveal) => (
   <div className='card-reveal'>
-    <span className='card-title grey-text text-darken-4'>{title}<Icon right>close</Icon></span>
+    
     {reveal}
   </div>
 );
